@@ -1,0 +1,21 @@
+{
+  "name": "passport-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.9.1",
+    "argon2": "^0.28.4",
+    "express": "^4.17.2",
+    "passport": "^0.5.2",
+    "prisma": "^3.9.1"
+  }
+}
