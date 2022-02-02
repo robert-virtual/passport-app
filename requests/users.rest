@@ -1,0 +1,15 @@
+
+
+GET http://localhost:3030/api/users
+
+###
+POST http://localhost:3030/api/users
+Content-Type: application/json
+
+{
+    "name":"Roberto Castillo",
+    "password":"castellanos12",
+    "email":"robertocastillo945@gmail.com",
+    "birthday":"08/08/2000",
+    "phone":"88137603"
+}
